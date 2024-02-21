@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src="" width="100" alt="Star Wars Logo"/></br>
+  <img src="" height="30" width="0" alt="" />
+  Star Wars Dashboard
+</h1>
 
-## Getting Started
+</br>
 
-First, run the development server:
+<div align="center">
+  
+  ![GitHub Repo Progress](https://img.shields.io/badge/status-in_progress-_?style=for-the-badge&color=%237e04db)
+  ![GitHub Language Count](https://img.shields.io/github/languages/count/brennofruhauf/star-wars-dashboard?style=for-the-badge&color=%230088ff)
+  ![GitHub Repo Stars](https://img.shields.io/github/stars/brennofruhauf/star-wars-dashboard?style=for-the-badge&color=%23ffff00)
+  ![GitHub Repo Size](https://img.shields.io/github/repo-size/brennofruhauf/star-wars-dashboard?style=for-the-badge&color=%23ff0040)
+  ![GitHub Repo Last Commit](https://img.shields.io/github/last-commit/brennofruhauf/star-wars-dashboard?style=for-the-badge&color=%23ff006b)
+  [![GitHub Readme Portuguese](https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%B7_README-Portuguese-_?style=for-the-badge&color=%23009B3A)](https://github.com/BrennoFruhauf/star-wars-dashboard/blob/main/README-PTBR.md)
+  
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📽️ Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+IN PROGRESS..
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tech
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project was developed with the following technologies:
+<div>
 
-## Learn More
+  [![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 
-To learn more about Next.js, take a look at the following resources:
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+IN PROGRESS...
 
-## Deploy on Vercel
+> The project will be completely remastered in a foreseeable future and it will be migrated to React.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📋 To-do
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [] `SideBar:` Add menu sidebar.
+- [] `Notification:` Add notification bar.
+- [] `Loading:` Add loading.
+- [] `Dashboard:` Add dashboard page.
+- [] `Characters:` Add characters page.
+- [] `Planets:` Add planets page.
+- [] `Vehicles:` Add vehicles page.
+- [] `Species:` Add species page.
+- [] `Character Details:` Add character details page.
+- [] `Planet Details:` Add planet details page.
+- [] `Vehicle Details:` Add vehicle details page.
+- [] `Species Details:` Add specie details page.
+- [] `Dark Mode:` Add dark mode theme.
+- [] `Responsiveness:` Add responsiveness for mobile devices.
+
+## ❤️ Credits
+
+- [SWAPI](https://swapi.dev/)
+- [Star Wars Databank](https://starwars-databank.vercel.app/)
+
+</br>
+
+<p align="center">
+  <img src="https://github.com/BrennoFruhauf/BrennoFruhauf/assets/102325604/d1ddec26-7cd5-4775-8fbc-869045cc3d60" width="400" alt="Divider" />
+</p>
+<p align="center">
+  Copyright &copy; 2023-present <a href="https://github.com/brennofruhauf" target="_blank">Brenno Fruhauf</a>
+</p>
