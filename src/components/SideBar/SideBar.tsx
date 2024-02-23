@@ -59,8 +59,6 @@ export default function SideBar() {
 					</MenuItem>
 				))}
 			</div>
-
-			<div>Usuário</div>
 		</aside>
 	)
 }
