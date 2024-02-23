@@ -1,17 +1,17 @@
 :root {
 	--max-width: 1100px;
-	--font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-		'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-		'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
 	--primary-color: #d00206;
 	--title: #1d1d1d;
 	--title-dark-bg: #ffffff;
 	--dark-bg: #1d1d1d;
 	--text-dark-bg: #afafaf;
-
+	--bg: #000000;
+	--bg-secondary: #1a1a1a;
+	--topbar-height: 3.5rem;
 	--sidebar-width: 16rem;
 	--transition-time: 0.3s;
+	--padding: 1rem;
 }
 
 * {
@@ -26,8 +26,10 @@ body {
 	font-weight: 400;
 	line-height: 1.6;
 	min-height: 100svh;
+	background-color: var(--bg);
+	color: var(--text-dark-bg);
 }
 
-body > section {
-	flex: 1;
+h1 {
+	color: var(--title-dark-bg);
 }
