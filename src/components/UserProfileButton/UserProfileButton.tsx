@@ -16,7 +16,7 @@ export default function UserProfileButton() {
 	const { isActive, setIsActive } = useClickOutside(menuRef, false)
 
 	return (
-		<div className={style.container}>
+		<div className={style.container} ref={menuRef}>
 			<div className={style.button} onClick={() => setIsActive(!isActive)}>
 				<Image
 					className={style.photo}
@@ -31,7 +31,7 @@ export default function UserProfileButton() {
 			<div
 				className={`${style.containerDropdown} ${isActive ? style.active : ''}`}
 			>
-				<menu className={`${style.dropdown}`} ref={menuRef}>
+				<menu className={`${style.dropdown}`}>
 					<Link className={style.item} href='#'>
 						<UserRound />
 						My Profile
