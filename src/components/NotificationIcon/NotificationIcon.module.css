@@ -1,0 +1,50 @@
+.icon {
+	display: flex;
+	position: relative;
+	align-items: center;
+	color: var(--text-dark-bg);
+	transition: color var(--transition-time) ease;
+	cursor: pointer;
+	padding: 0.25rem;
+}
+
+.icon:hover {
+	color: var(--title-dark-bg);
+}
+
+.notification {
+	position: absolute;
+	user-select: none;
+	pointer-events: none;
+	top: -0.25rem;
+	right: -0.25rem;
+	height: 1.25rem;
+	width: 1.25rem;
+	border-radius: 50%;
+	background-color: var(--primary-color);
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--title-dark-bg);
+	font-size: 0.75rem;
+	box-sizing: border-box;
+}
+
+/* .num-count {
+  position: absolute;
+  user-select: none;
+  cursor: default;
+  font-size: 0.6rem;
+  background: $clr-a300;
+  width: 1.2rem;
+  height: 1.2rem;
+  color: $clr-white-1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  top: -0.33rem;
+  right: -.66rem;
+  box-sizing: border-box;
+} */

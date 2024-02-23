@@ -1,0 +1,17 @@
+.bar {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 1rem;
+	position: fixed;
+	background: var(--bg-secondary);
+	height: var(--topbar-height);
+	width: calc(100% - var(--sidebar-width));
+	padding: 0 var(--padding);
+}
+
+.line {
+	width: 1px;
+	height: 1.5rem;
+	background-color: var(--text-dark-bg);
+}

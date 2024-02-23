@@ -46,7 +46,6 @@
 	gap: 1rem;
 	position: absolute;
 	background-color: var(--bg-secondary);
-	/* margin-top: 1rem; */
 	padding: var(--padding);
 	border-radius: 0.25rem;
 	width: 100%;
