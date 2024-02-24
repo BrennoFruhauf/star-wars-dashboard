@@ -1,0 +1,33 @@
+.container {
+	user-select: none;
+	padding: 1rem 0;
+}
+
+.title {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+}
+
+.path {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.active {
+	color: var(--primary-color);
+}
+
+.link {
+	color: var(--text-dark-bg);
+	text-decoration: none;
+	transition: color var(--transition-time) ease;
+}
+
+.link:hover {
+	color: var(--title-dark-bg);
+}
+
+.arrow {
+	font-weight: bold;
+	color: var(--primary-color);
+}
