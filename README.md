@@ -38,8 +38,8 @@ IN PROGRESS...
 
 ## 📋 To-do
 
-- [] `SideBar:` Add menu sidebar.
-- [] `Notification:` Add notification bar.
+- [X] `SideBar:` Add menu sidebar.
+- [X] `Notification:` Add notification bar.
 - [] `Loading:` Add loading.
 - [] `Dashboard:` Add dashboard page.
 - [] `Characters:` Add characters page.

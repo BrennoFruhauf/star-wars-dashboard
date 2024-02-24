@@ -49,7 +49,7 @@ export default function SideBar() {
 	return (
 		<aside className={style.sidebar}>
 			<Link className={style.logo} href='/'>
-				<StarWarsFill size={'auto'} width='100%' />
+				<StarWarsFill size='100%' width='100%' />
 			</Link>
 
 			<div className={style.itens}>

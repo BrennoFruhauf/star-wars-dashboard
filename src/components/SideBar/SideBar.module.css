@@ -11,7 +11,7 @@
 
 	background-color: var(--dark-bg);
 	color: var(--title);
-	scrollbar-color: var(--title-dark-bg) var(--dark-bg);
+	user-select: none;
 }
 
 .itens {

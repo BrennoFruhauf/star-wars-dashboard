@@ -25,7 +25,9 @@ export default function UserProfileButton() {
 					alt='Darth Vader'
 				/>
 				<span className={style.name}>Darth Vader</span>
-				<ChevronDown className={style.arrow} />
+				<ChevronDown
+					className={`${style.arrow} ${isActive ? style.active : ''}`}
+				/>
 			</div>
 
 			<div

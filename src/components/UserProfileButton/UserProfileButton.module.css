@@ -27,6 +27,14 @@
 	font-weight: 400;
 }
 
+.arrow {
+	transition: transform var(--transition-time) ease;
+}
+
+.arrow.active {
+	transform: rotate(180deg);
+}
+
 .containerDropdown {
 	position: absolute;
 	height: 0px;
