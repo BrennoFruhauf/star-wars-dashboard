@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import { Fragment, ReactNode } from 'react'
 
 import style from './CardBackground.module.css'
 
@@ -16,10 +16,10 @@ export default function CardBackground({ children }: Props) {
 					}
 
 					return (
-						<>
+						<Fragment key={i}>
 							{value}
 							<div className={style.bar}></div>
-						</>
+						</Fragment>
 					)
 				})}
 			</div>
